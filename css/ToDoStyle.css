@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    min-height: 100%;
+    background: #a2c6cf;
+    font-family: 'Galada', cursive;
+}
+
+.wrapper{
+    width: 400px;
+    height: 600px;
+    margin: 50px auto;
+    border: 10px solid #2e609e;
+    border-radius: 20px;
+    background: white;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    background: linear-gradient(#f0eac9,white);
+    border-radius: 10px 10px 0 0;
+    font-size: 40px;
+    padding-top: 25px;
+    color: mediumslateblue;
+}
+
+span{
+    border-bottom: 2px dashed black;
+    display: block;
+    height: 90%;
+    width: 100%;
+}
+
+.wrap-list{
+    height: 85%;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+input[type="checkbox"]{
+    position: relative;
+    top: 14px;
+    right: 12px;
+    float: right;
+}
+
+input[type="checkbox"]:checked+label{
+    text-decoration: line-through;
+    color: rgba(0,0,0,.3);
+}
+
+.list{
+    list-style: none;
+    color: rgba(0,0,0,.8)
+}
+
+.list li{
+    width: 100%;
+    float: left;
+    font-size: 23px;
+}
+
+label{
+   padding: 10px;
+    float: left;
+    width: 90%;
+}
+
+.grey{
+    background: rgba(150,230,241,.3);
+}
